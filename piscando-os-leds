@@ -7,14 +7,14 @@ void setup()
 
 void loop()
 {
- digitalWrite(2,HIGH); //aitva porta 2
-  delay(200) ; //espere 200ms
-  digitalWrite(2,LOW);
-  delay(200);//espere 200ms  
-  digitalWrite(3,HIGH);//LIGA A PORTA 3
-  delay(200);           
+ digitalWrite(2,HIGH); //LIGA A PORTA 2
+  delay(200) ; //tempo de espera de 200ms
+  digitalWrite(2,LOW); //DESLIGA A PORTA 2
+  delay(200); //tempo de espera de 200ms
+  digitalWrite(3,HIGH); //LIGA A PORTA 3
+  delay(200); //tempo de espera de 200ms
   digitalWrite(3,LOW); //DESLIGA PORTA 3
-  delay(200);  
+  delay(200); //tempo de espera de 200ms 
              
              
 }
