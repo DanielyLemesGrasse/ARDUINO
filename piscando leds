@@ -1,0 +1,20 @@
+// C++ code
+// ARDUINO QUE PISCA DOIS LEDS
+void setup()
+{
+  pinMode(2,OUTPUT);//CONFIGURA A PORTA 2 COMO SAIDA
+}
+
+void loop()
+{
+ digitalWrite(2,HIGH); //aitva porta 2
+  delay(200) ; //espere 200ms
+  digitalWrite(2,LOW);
+  delay(200);//espere 200ms  
+  digitalWrite(3,HIGH);//LIGA A PORTA 3
+  delay(200);           
+  digitalWrite(3,LOW); //DESLIGA PORTA 3
+  delay(200);  
+             
+             
+}
